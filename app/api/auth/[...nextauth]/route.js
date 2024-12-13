@@ -19,5 +19,5 @@ export const authOptions = {
             },
         },
     ],
-    debug: true, // Enable debug logs for more information
+   
 };
