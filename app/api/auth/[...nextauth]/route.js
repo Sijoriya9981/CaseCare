@@ -1,3 +1,5 @@
+import dotenv from 'dotenv';
+dotenv.config();
 
 
 import NextAuth from "next-auth/next";
