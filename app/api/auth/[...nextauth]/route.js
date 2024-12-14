@@ -3,7 +3,7 @@ dotenv.config();
 
 
 import NextAuth from "next-auth/next";
-
+console.log(process.env);
 console.log("key api",process.env.DESCOPE_API)
 console.log("CLIENT_ID",process.env.DESCOPE_CLIENT_ID)
 
