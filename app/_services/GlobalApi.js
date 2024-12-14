@@ -2,8 +2,8 @@
 const { gql, default: request } = require("graphql-request")
 
 
-const masterurl = 'https://ap-south-1.cdn.hygraph.com/content/cm3yyt9ju00r107upimfdznpg
-/master'
+const masterurl = `https://ap-south-1.cdn.hygraph.com/content/cm3yyt9ju00r107upimfdznpg/master`;
+
 
 
 
