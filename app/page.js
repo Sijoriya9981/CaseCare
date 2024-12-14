@@ -11,6 +11,8 @@ import BussinessList from "./_component/BussinessList";
 export default function Home() {
   const [categorylist, setcategorylist] = useState([])
   const [bussinesslist, setbussinesslist] = useState([])
+  console.log(process.env.DESCOPE_API)
+console.log(process.env.DESCOPE_CLIENT_ID)
   useEffect(() => {
 
     getcategorylist();
