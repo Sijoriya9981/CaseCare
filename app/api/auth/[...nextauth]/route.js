@@ -3,7 +3,7 @@
 import NextAuth from "next-auth/next";
 
 console.log("@@@@@"process.env.DESCOPE_API)
-console.log("@@@@@"process.env.DESCOPE_CLIENT_ID)
+console.log("@@@i@@"process.env.DESCOPE_CLIENT_ID)
 
 export const authOptions = {
     providers: [
